@@ -1,0 +1,16 @@
+
+1>,Delay 100ms,,,Delay_ms,100:
+
+2>,CheckPTC04Connection,,,Init_Programmer,200:
+
+3>,ReadEEPROMtoImage,test,,ReadEEPROMtoImage,100:
+
+4>,CopyImagetoTemp,,,CopyImagetoTemp,200:
+
+5>,SetRoughGainandFineGain,,,SetRoughGainandFineGain,200:
+
+6>,ReadRoughGainandFineGain,,,ReadRoughGainandFineGain,100:
+
+7>,ProgramEEPROMwithTemp,,,ProgramEEPROMwithTemp,200:
+
+8>,ReadEEPROMtoVerify,,,ReadEEPROMtoVerify,100:
